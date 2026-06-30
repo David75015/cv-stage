@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
+        url("/IMG/jin_mori__render__by_yessing_dfpj209-pre.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:blanchedalmond
+}
+header {
+    text-align: center;
+}
+
+hr {
+    height: 1.2px;
+    background-color: black;
+}
+
+footer .icons-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+footer .icons-footer img {
+    transition: transform 0.2s ease;
+}
+
+footer .icons-footer img:hover {
+    transform: scale(1.15);
+}
